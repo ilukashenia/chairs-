@@ -1,14 +1,21 @@
 body{
+    width: 100%;
     padding: 0;
-    margin: 0;
+    /* margin-left: 140px; */
     background: #FCFBFF;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header{   
     display: flex;
     width: 1200px;
     height: 29px;
-    margin: 44px 120px; 
+    margin: 44px auto; 
 }
 
 .header__logo{
